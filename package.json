@@ -9,13 +9,16 @@
   "keywords": [
     "hello-world"
   ],
-  "bin": { "greet" : "./bin/greet.js" },
+  "bin": {
+    "greet": "./bin/greet.js"
+  },
   "author": "Allen Wu",
   "license": "MIT",
   "dependencies": {
-    "minimist" : "0.1.0"
+    "minimist": "0.1.0"
   },
   "devDependencies": {
-    "mocha": "~1.20.0"
+    "chai": "^1.9.1",
+    "mocha": "^1.20.0"
   }
 }
